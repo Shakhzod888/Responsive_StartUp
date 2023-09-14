@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./main.scss";
 import { useDisclosure } from "@mantine/hooks";
 import { Burger } from "@mantine/core";
 import MainPersons from "../assets/mainPersons.png";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function Main() {
+  useEffect(() => {
+    AOS.init({});
+  });
   const [opened, { toggle }] = useDisclosure(false);
   const label = opened ? "Close navigation" : "Open navigation";
   const [showBurgerMenu, setShowBurgerMenu] = useState(false);
@@ -101,7 +107,13 @@ function Main() {
               <button type="button">Explore</button>
             </div>
           </div>
-          <div className="right_box">
+          <div
+            className="right_box"
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
             <img src={MainPersons} alt="" />
           </div>
         </div>

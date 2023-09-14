@@ -1,20 +1,34 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../sponsors/sponsors.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Zoom from "react-reveal/Zoom";
 
 function Sponsors() {
+  useEffect(() => {
+    AOS.init({});
+  });
   return (
     <section className="home_section_2">
       <div className="container">
-        <p className="partners_text">PARTNERS</p>
+        <p className="partners_text" data-aos="zoom-in-down">
+          {" "}
+          PARTNERS
+        </p>
+
         <div className="home_sec_2_texts">
-          <h2>Lorem Ipsum Dolor</h2>
+          <h2 data-aos="fade-right" data-aos-duration="800">
+            Lorem Ipsum Dolor
+          </h2>
           <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p data-aos="fade-left" data-aos-duration="800">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
           </div>
         </div>
 
         <div className="sponsors_box">
-          <div className="google">
+          <div className="google" data-aos="fade-right" data-aos-duration="800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="153"
@@ -48,7 +62,11 @@ function Sponsors() {
               />
             </svg>
           </div>
-          <div className="microsoft">
+          <div
+            className="microsoft"
+            data-aos="fade-left"
+            data-aos-duration="800"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="212"
@@ -78,7 +96,7 @@ function Sponsors() {
               />
             </svg>
           </div>
-          <div className="airbnb">
+          <div className="airbnb" data-aos="fade-right" data-aos-duration="800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="161"
@@ -92,7 +110,11 @@ function Sponsors() {
               />
             </svg>
           </div>
-          <div className="facebook">
+          <div
+            className="facebook"
+            data-aos="fade-left"
+            data-aos-duration="800"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="198"
@@ -106,7 +128,7 @@ function Sponsors() {
               />
             </svg>
           </div>
-          <div className="spotify">
+          <div className="spotify" data-aos="fade-down" data-aos-duration="800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="167"
@@ -123,7 +145,13 @@ function Sponsors() {
         </div>
 
         <div className="learn_btn_box">
-          <button className="learn_btn">Learn More</button>
+          <button
+            className="learn_btn"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            Learn More
+          </button>
         </div>
       </div>
     </section>
