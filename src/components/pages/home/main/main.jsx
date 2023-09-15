@@ -112,7 +112,7 @@ function Main() {
             data-aos="fade-left"
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"
-            data-aos-duration="500"
+            data-aos-duration="900"
           >
             <img src={MainPersons} alt="" />
           </div>

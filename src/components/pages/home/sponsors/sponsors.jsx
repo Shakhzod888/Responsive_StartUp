@@ -12,23 +12,22 @@ function Sponsors() {
     <section className="home_section_2">
       <div className="container">
         <p className="partners_text" data-aos="zoom-in-down">
-          {" "}
           PARTNERS
         </p>
 
         <div className="home_sec_2_texts">
-          <h2 data-aos="fade-right" data-aos-duration="800">
+          <h2 data-aos="fade-down" data-aos-duration="800">
             Lorem Ipsum Dolor
           </h2>
           <div>
-            <p data-aos="fade-left" data-aos-duration="800">
+            <p data-aos="fade-down" data-aos-duration="800">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
         </div>
 
         <div className="sponsors_box">
-          <div className="google" data-aos="fade-right" data-aos-duration="800">
+          <div className="google" data-aos="fade-up" data-aos-duration="800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="153"
@@ -62,11 +61,7 @@ function Sponsors() {
               />
             </svg>
           </div>
-          <div
-            className="microsoft"
-            data-aos="fade-left"
-            data-aos-duration="800"
-          >
+          <div className="microsoft" data-aos="fade-up" data-aos-duration="800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="212"
@@ -96,7 +91,7 @@ function Sponsors() {
               />
             </svg>
           </div>
-          <div className="airbnb" data-aos="fade-right" data-aos-duration="800">
+          <div className="airbnb" data-aos="fade-down" data-aos-duration="800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="161"
@@ -112,7 +107,7 @@ function Sponsors() {
           </div>
           <div
             className="facebook"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-duration="800"
           >
             <svg
@@ -128,7 +123,7 @@ function Sponsors() {
               />
             </svg>
           </div>
-          <div className="spotify" data-aos="fade-down" data-aos-duration="800">
+          <div className="spotify" data-aos="fade-up" data-aos-duration="800">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="167"

@@ -7,7 +7,7 @@ function PagesMain() {
   return (
     <div>
       <Main />
-      <Sponsors />
+      {/* <Sponsors /> */}
       <About />
     </div>
   );
