@@ -107,13 +107,7 @@ function Main() {
               <button type="button">Explore</button>
             </div>
           </div>
-          <div
-            className="right_box"
-            data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="900"
-          >
+          <div className="right_box">
             <img src={MainPersons} alt="" />
           </div>
         </div>

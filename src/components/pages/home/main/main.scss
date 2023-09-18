@@ -103,7 +103,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 45px;
+    margin-top: 65px;
 
     .left_box {
       .welcome {
@@ -184,17 +184,9 @@
           font-size: 35px;
         }
 
-        .welcome {
-          text-align: center;
-        }
-
         .section_text {
           width: 430px;
           font-size: 17px;
-        }
-        .button_box {
-          display: flex;
-          justify-content: center;
         }
       }
 
@@ -219,6 +211,15 @@
           text-align: center;
           width: 400px;
           font-size: 35px;
+        }
+
+        .button_box {
+          display: flex;
+          justify-content: center;
+        }
+
+        .welcome {
+          text-align: center;
         }
 
         .section_text {
